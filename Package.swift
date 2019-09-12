@@ -16,11 +16,9 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages which this package depends on.
-        .target(
-            name: "gif-h",
-            dependencies: []),
+    
+        .target(name: "gif-h", dependencies: [], path: nil, exclude: [], sources: nil, publicHeadersPath: ".", cSettings: [.headerSearchPath("../c_gif-h/")], cxxSettings: nil, swiftSettings: nil, linkerSettings: nil ),
+        
         .testTarget(
             name: "gif-hTests",
             dependencies: ["gif-h"]),

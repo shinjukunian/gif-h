@@ -1,0 +1,3 @@
+[submodule "Sources/c_gif-h"]
+	path = Sources/c_gif-h
+	url = https://github.com/charlietangora/gif-h.git
